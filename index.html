@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب أحمد عبد الحميد | للمحاماة والاستشارات القانونية</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #070b14;
+            color: #f8fafc;
+            scroll-behavior: smooth;
+        }
+        .amiri { font-family: 'Amiri', serif; }
+        .gold-text {
+            background: linear-gradient(135deg, #d4af37 0%, #f9e29c 50%, #aa7c11 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-btn {
+            background: linear-gradient(135deg, #d4af37 0%, #aa7c11 100%);
+        }
+        .card-glass {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- الهيدر -->
+    <header class="fixed w-full top-0 z-50 bg-[#070b14]/90 backdrop-blur-md border-b border-[#d4af37]/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-lg gold-btn flex items-center justify-center text-[#070b14] text-xl shadow-lg">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                </div>
+                <div>
+                    <h1 class="amiri text-xl font-bold gold-text leading-none">أحمد عبد الحميد</h1>
+                    <p class="text-[11px] text-slate-400 mt-1">للمحاماة والاستشارات القانونية</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex gap-8 text-sm font-semibold text-slate-300">
+                <a href="#home" class="hover:text-[#d4af37] transition">الرئيسية</a>
+                <a href="#expertise" class="hover:text-[#d4af37] transition">تخصصاتنا</a>
+                <a href="#about" class="hover:text-[#d4af37] transition">عن المكتب</a>
+                <a href="#contact" class="hover:text-[#d4af37] transition">تواصل معنا</a>
+            </nav>
+
+            <a href="https://wa.me/201146695407" target="_blank" class="gold-btn text-[#070b14] font-bold px-5 py-2.5 rounded-lg text-sm hover:opacity-90 transition flex items-center gap-2 shadow-md">
+                <i class="fa-brands fa-whatsapp text-base"></i>
+                <span>استشارة فورية</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- الواجهة الرئيسية -->
+    <section id="home" class="pt-36 pb-24 px-4 relative overflow-hidden">
+        <div class="absolute top-20 right-10 w-72 h-72 bg-[#d4af37]/10 rounded-full blur-3xl"></div>
+        <div class="max-w-5xl mx-auto text-center relative z-10 space-y-6">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#d4af37]/30 bg-[#d4af37]/10 text-[#f9e29c] text-xs font-semibold">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>العدالة • النزاهة • الاحترافية</span>
+            </div>
+            
+            <h2 class="amiri text-4xl md:text-6xl font-bold leading-tight">
+                نرسّخ العدالة ونحمي <br>
+                <span class="gold-text">حقوقكم ومصالحكم القانونية</span>
+            </h2>
+            
+            <p class="text-slate-400 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+                مكتب الأستاذ أحمد عبد الحميد يقدم حلولاً قانونية متكاملة وتمثيلاً قضائياً رفيع المستوى أمام كافة المحاكم المصرية، بأعلى درجات السرية والمهنية.
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-4 pt-4">
+                <a href="#contact" class="gold-btn text-[#070b14] font-bold px-8 py-3.5 rounded-xl shadow-lg hover:scale-105 transition">
+                    احجز موعد استشارة
+                </a>
+                <a href="tel:01146695407" class="border border-[#d4af37]/50 text-[#f9e29c] hover:bg-[#d4af37]/10 font-bold px-8 py-3.5 rounded-xl transition flex items-center gap-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>01146695407</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- التخصصات -->
+    <section id="expertise" class="py-20 bg-[#0b1120] border-y border-slate-800/80 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-14">
+                <h3 class="amiri text-3xl md:text-4xl font-bold gold-text">مجالات الممارسة القانونية</h3>
+                <p class="text-slate-400 text-sm mt-2">خبرة متعمقة لتقديم أفضل دفاع واستشارة قانونية</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="card-glass p-7 rounded-2xl hover:border-[#d4af37] transition">
+                    <div class="w-12 h-12 rounded-lg bg-[#d4af37]/15 text-[#d4af37] flex items-center justify-center text-2xl mb-5">
+                        <i class="fa-solid fa-gavel"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">القضايا الجنائية والمدنية</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">ترافع وتمثيل قانوني قوي أمام محاكم الجنايات والجنح والمحاكم المدنية بكافة درجاتها.</p>
+                </div>
+
+                <div class="card-glass p-7 rounded-2xl hover:border-[#d4af37] transition">
+                    <div class="w-12 h-12 rounded-lg bg-[#d4af37]/15 text-[#d4af37] flex items-center justify-center text-2xl mb-5">
+                        <i class="fa-solid fa-file-contract"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">الشركات وصياغة العقود</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">تأسيس الشركات، صياغة ومراجعة العقود التجارية والمدنية بما يضمن حماية كاملة لأطرافها.</p>
+                </div>
+
+                <div class="card-glass p-7 rounded-2xl hover:border-[#d4af37] transition">
+                    <div class="w-12 h-12 rounded-lg bg-[#d4af37]/15 text-[#d4af37] flex items-center justify-center text-2xl mb-5">
+                        <i class="fa-solid fa-scale-unbalanced"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-2">الأحوال الشخصية والأسرة</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">إدارة كافة قضايا الأسرة والتركات والمواريث بحكمة وسرية تامة تحفظ كيان الأسرة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- عن المكتب -->
+    <section id="about" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="card-glass rounded-3xl p-8 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div class="space-y-4">
+                <span class="text-[#d4af37] text-xs font-bold tracking-wider uppercase">رؤيتنا ورسالتنا</span>
+                <h3 class="amiri text-3xl md:text-4xl font-bold text-white">لماذا يثق بنا موكلونا؟</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    نؤمن بأن المحاماة رسالة سامية قبل أن تكون مهنة. لذلك نحرص في مكتب الأستاذ أحمد عبد الحميد على دراسة كل ملف بعناية فائقة، وبناء استراتيجية قانونية محكمة تضمن تحقيق أفضل النتائج بأسرع وقت ممكن.
+                </p>
+                <ul class="space-y-2 pt-2 text-sm text-slate-300">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#d4af37]"></i> متابعة دورية ومستمرة لكافة مراحل القضية</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#d4af37]"></i> سرية تامة وحفاظ مطلق على بيانات الموكلين</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-[#d4af37]"></i> وضوح وشفافية كاملة في تقدير الموقف القانوني</li>
+                </ul>
+            </div>
+            <div class="bg-[#070b14] p-8 rounded-2xl border border-[#d4af37]/30 text-center space-y-4">
+                <i class="fa-solid fa-landmark text-5xl gold-text"></i>
+                <h4 class="amiri text-2xl font-bold text-white">مكتب أحمد عبد الحميد</h4>
+                <p class="text-xs text-slate-400">القاهرة - كورنيش المعادي</p>
+                <div class="pt-4 border-t border-slate-800 flex justify-around text-center">
+                    <div>
+                        <span class="block text-xl font-bold gold-text">100%</span>
+                        <span class="text-[11px] text-slate-400">سرية والتزام</span>
+                    </div>
+                    <div>
+                        <span class="block text-xl font-bold gold-text">24/7</span>
+                        <span class="text-[11px] text-slate-400">دعم واستشارات</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تواصل معنا -->
+    <section id="contact" class="py-20 bg-[#0b1120] border-t border-slate-800 px-4">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="space-y-6">
+                <h3 class="amiri text-3xl md:text-4xl font-bold gold-text">تواصل مع المكتب</h3>
+                <p class="text-slate-400 text-sm">يسعدنا استقبال استفساراتكم وتحديد مواعيد المقابلات القانونية.</p>
+                
+                <div class="space-y-4 pt-2">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-[#d4af37]/15 text-[#d4af37] flex items-center justify-center"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <p class="text-xs text-slate-400">عنوان المكتب</p>
+                            <p class="text-sm font-semibold text-white">شارع أنور عطية، كورنيش المعادي، القاهرة</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-[#d4af37]/15 text-[#d4af37] flex items-center justify-center"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <p class="text-xs text-slate-400">أرقام التواصل</p>
+                            <p class="text-sm font-semibold text-white" dir="ltr">01146695407 - 01065595635</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-[#d4af37]/15 text-[#d4af37] flex items-center justify-center"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <p class="text-xs text-slate-400">البريد الإلكتروني</p>
+                            <p class="text-sm font-semibold text-white">abdelhamidahmed29@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form onsubmit="event.preventDefault(); alert('تم إرسال طلبك بنجاح، سيتواصل معك المكتب قريباً.');" class="card-glass p-7 rounded-2xl space-y-4">
+                <h4 class="text-lg font-bold text-white mb-2">أرسل رسالة سريعة</h4>
+                <input type="text" placeholder="الاسم بالكامل" required class="w-full bg-[#070b14] border border-slate-700 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-[#d4af37]">
+                <input type="tel" placeholder="رقم الهاتف / الواتساب" required class="w-full bg-[#070b14] border border-slate-700 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-[#d4af37]">
+                <textarea rows="3" placeholder="اكتب تفاصيل استشارتك باختصار..." required class="w-full bg-[#070b14] border border-slate-700 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-[#d4af37]"></textarea>
+                <button type="submit" class="w-full gold-btn text-[#070b14] font-bold py-3 rounded-lg hover:opacity-95 transition">إرسال الاستشارة</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="py-6 text-center text-xs text-slate-500 border-t border-slate-800/80">
+        جميع الحقوق محفوظة © 2026 مكتب الأستاذ أحمد عبد الحميد للمحاماة والاستشارات القانونية
+    </footer>
+
+</body>
+</html>
